@@ -1,0 +1,16 @@
+﻿/* theme_green_bottom.css - #97C000 / #5b7400 */
+
+/* CSS from: jquery.colorbox.css */
+#cboxPrevious:hover, 
+#cboxNext:hover,
+#cboxClose:hover {
+  color: #5b7400;
+}
+
+/* CSS from: jquery.easyTabs.css */
+.resp-tab-active {
+  color: #5b7400;
+}
+
+/* CSS from: cookieconsent.css */
+.as-oil__btn-optin {text-transform:uppercase;min-width:175px;min-height:42px;margin:0;padding:.5rem 1rem;font-size:0.9rem;font-weight:700;border:none;border-radius:3px;outline:none;cursor:pointer;color:#fff;background-color:#97C000;transition:opacity .8s ease 0s}
