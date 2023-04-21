@@ -246,3 +246,11 @@ ul#categorymenu li a:hover {
   width: 50px;
 }
 
+/* category flags */
+.categoryFlag1 {font-weight: 700;background: #5cb85c;font-size: 9px;padding: 0 4px;border-radius: 4px;color: #fff;position:absolute;right:10px;}
+.categoryFlag2 {font-weight: 700;background: #f0ad4e;font-size: 9px;padding: 0 4px;border-radius: 4px;color: #fff;position:absolute;right:10px;}
+.categoryFlag3 {font-weight: 700;background: #d9534f;font-size: 9px;padding: 0 4px;border-radius: 4px;color: #fff;position:absolute;right:10px;}
+ul#categorymenu {position:relative;}
+ul#categorymenu li a:hover .categoryFlag1,
+ul#categorymenu li a:hover .categoryFlag2,
+ul#categorymenu li a:hover .categoryFlag3 {background:transparent;color:#ffffff;}
