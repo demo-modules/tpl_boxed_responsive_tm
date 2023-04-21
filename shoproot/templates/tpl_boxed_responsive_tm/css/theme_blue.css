@@ -10,6 +10,9 @@ h4 {
   color: #0097c0;
 }
 /* Body / Layout / Cols */
+body {
+  background: url(img/std_bg.gif) #fff;
+}
 @media only screen and (min-width: 1120px) {
   #layout_wrap {
     margin: 0px auto !important;
@@ -221,6 +224,10 @@ ul#categorymenu li a:hover {
 .pagination_list ul li.current {
   background-color: #0097c0;
 }
+.slider_bestseller .carousel_box .cb_title {
+	color: #0097c0;
+}
+
 /* Button-Colors */
 .cssButtonColor2 {
   border:1px solid #0097c0;
@@ -237,13 +244,4 @@ ul#categorymenu li a:hover {
   text-decoration:none !important;
   background:#eee;
 }
-
-/* category flags */
-.categoryFlag1 {font-weight: 700;background: #5cb85c;font-size: 9px;padding: 0 4px;border-radius: 4px;color: #fff;position:absolute;right:10px;}
-.categoryFlag2 {font-weight: 700;background: #f0ad4e;font-size: 9px;padding: 0 4px;border-radius: 4px;color: #fff;position:absolute;right:10px;}
-.categoryFlag3 {font-weight: 700;background: #d9534f;font-size: 9px;padding: 0 4px;border-radius: 4px;color: #fff;position:absolute;right:10px;}
-ul#categorymenu {position:relative;}
-ul#categorymenu li a:hover .categoryFlag1,
-ul#categorymenu li a:hover .categoryFlag2,
-ul#categorymenu li a:hover .categoryFlag3 {background:transparent;color:#ffffff;}
 
